@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row5,
+.row6,
+.row7,
+.row8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 40px;
+  gap: 30px;
+}
+.box1 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 228, 196);
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    justify-self: center;
+  }
+  
+  .box2 {
+    background-color: rgba(247, 242, 242, 0.715);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin-top: 40px;
+  }
+  [class^="small-box"] {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(156, 129, 168,0.5);
+    display: flex;
+    justify-self: center;
+    position: relative;
+    margin-top: 40px;
+  }
+.small-box15:hover {
+    transform:rotate(45deg);
+    transform-origin: top right;
+
+  }
+  .small-box16:hover {
+    transform:rotate(45deg);
+    transform-origin: bottom left;
+  }
+  .small-box17:hover {
+
+    transform: perspective(150px) rotateX(45deg);
+    transform-origin: bottom;}
+  
+  .small-box18:hover {
+    transform-origin:top ;
+    transform:perspective(240px) rotatex(45deg);}
+ 
+
+
+  .small-box19:hover { 
+    
+ 
+    transform-origin:left ;
+    transform:perspective(240px) rotatey(60deg);
+    
+  }
+
+  .small-box20:hover {
+    transform:perspective(230px) rotatey(45deg);
+transform-origin: right;
+
+  }
+
+
+  .small-box21:hover {
+    transform-origin: top right;
+    transform: scale(2);}
+
+  .small-box22:hover {
+    transform-origin: bottom left;
+    transform: scale(2);
+  }
+
+
+  .small-box23:hover 
+    { transform: scalex(1.75);
+        transform-origin:right;
+    
+  }
+
+
+
+ 
+  
+  .small-box24:hover { transform: scalex(1.75);
+    transform-origin: left;
+  }
+   
+ 
+  
+  .small-box25:hover {
+  
+    transform: scaley(1.75);
+    transform-origin: top;
+  }
+ 
+
+  .small-box26:hover {
+    transform: scaley(1.75);
+    transform-origin: bottom;}
